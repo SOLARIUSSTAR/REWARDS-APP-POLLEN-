@@ -1,0 +1,35 @@
+{
+  "name": "rewardsapp",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "EXPO_DEVTOOLS_LISTEN_ADDRESS=0.0.0.0 expo start --port 8082 --clear --lan",
+    "start-safe": "EXPO_DEVTOOLS_LISTEN_ADDRESS=0.0.0.0 expo start --port 8082 --clear --lan",
+    "android": "EXPO_DEVTOOLS_LISTEN_ADDRESS=0.0.0.0 expo start --android --port 8082 --lan",
+    "ios": "EXPO_DEVTOOLS_LISTEN_ADDRESS=0.0.0.0 expo start --ios --port 8082 --lan",
+    "web": "EXPO_DEVTOOLS_LISTEN_ADDRESS=0.0.0.0 expo start --web --port 8082 --lan"
+  },
+  "dependencies": {
+    "@react-native-google-signin/google-signin": "^15.0.0",
+    "@react-navigation/bottom-tabs": "^7.4.7",
+    "@react-navigation/native": "^7.1.17",
+    "@react-navigation/stack": "^7.4.8",
+    "@stripe/stripe-react-native": "0.45.0",
+    "expo": "53.0.22",
+    "expo-linear-gradient": "^14.0.0",
+    "expo-status-bar": "^2.2.3",
+    "firebase": "^12.2.1",
+    "react": "19.0.0",
+    "react-native": "0.79.5",
+    "react-native-gesture-handler": "~2.24.0",
+    "react-native-safe-area-context": "5.4.0",
+    "react-native-screens": "~4.11.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true,
+  "expo": {
+    "platforms": ["ios", "android", "web"]
+  }
+}
